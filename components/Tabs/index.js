@@ -11,11 +11,22 @@
 const lambdaTab = axios.get("https://lambda-times-backend.herokuapp.com/topics");
 lambdaTab
 .then(info => {
-tabCreator(info);
+    lambdaElements = info.data.topics;
+    lambdaElements.forEach((element)=>{
+        tabCreator(element)
+    });
 })
 
 .catch(error => {
 console.log(`error: ${error}`);
 })
+	
+function tabCreator(textContent){
+	const tabTopic = document.querySelector(".topics");		
+	const lambdaDiv = document.createElement("div");
+	lambdaDiv.classList.add("tab");
+	lambdaDiv.textContent = textContent;
+	return tabTopic.appendChild(lambdaDiv);
+}
 
 
