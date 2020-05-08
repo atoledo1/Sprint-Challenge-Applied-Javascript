@@ -32,6 +32,6 @@ function Header() {
   return headerBox;
 }
 
-const HTMLheaderBox = document.querySelector("div.header-container");
+const hheaderBox = document.querySelector("div.header-container");
 
-HTMLheaderBox.appendChild(Header());
+hheaderBox.appendChild(Header());
