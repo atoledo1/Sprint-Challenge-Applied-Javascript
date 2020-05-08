@@ -12,7 +12,7 @@ You are not allowed to collaborate during the Sprint Challenge. However, you are
 
 You have three hours to complete this challenge. Plan your time accordingly.
 
-## Commits
+## Commits.
 
 Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your Team Lead.
 
@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
-2. What is an event?
+It is a way of representing html elements as objects that we can interact with and manipulate. It is an interface in which we can modify the structure, styling and content of a webpage. 
+
+2. What is an event? 
+
+It is an action that happens to html elements, either done by the user or the browser. 
 
 3. What is an event listener?
 
+It is a method that takes two arguments. It is used in order to manipulate what will be the reaction of the webpage when an event happens. 
+
 4. Why would we convert a NodeList into an Array?
 
+We would convert it in order to make it easier to modify or manipulate. 
+
 5. What is a component?
+
+A component is a piece of code that is reusable and that we can use to build elements that have shared styling or functionality. 
 
 ### Git Set up
 
@@ -49,13 +59,13 @@ Edit this document to include your answers after each question. Make sure to lea
 
 Your finished project must include all of the following requirements:
 
-* [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
+* [X] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
 
-* [ ] Following the instructions in the `Header/index.js` file, create the Header component.
+* [X] Following the instructions in the `Header/index.js` file, create the Header component.
 
-* [ ] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
+* [X] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
 
-* [ ] Following the instructions in the `Cards/index.js` file, create individual Cards components.
+* [X] Following the instructions in the `Cards/index.js` file, create individual Cards components.
 
 ## Stretch Problems
 
